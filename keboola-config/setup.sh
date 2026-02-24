@@ -1,3 +1,6 @@
 #!/bin/bash
 set -Eeuo pipefail
-/app/.venv/bin/pip install -r /app/requirements.txt
+echo "=== PWD ==="
+pwd
+echo "=== FIND VENV ==="
+find / -name "pyvenv.cfg" 2>/dev/null
