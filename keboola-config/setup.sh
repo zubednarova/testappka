@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eeuo pipefail
-cd /data/app
+cd /app
 pip install -r requirements.txt --break-system-packages
